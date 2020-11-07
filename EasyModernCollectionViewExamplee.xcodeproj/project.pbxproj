@@ -15,6 +15,14 @@
 		1E8A5C8F25567C23008FD930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A5C8D25567C23008FD930 /* LaunchScreen.storyboard */; };
 		1E8A5C9A25567C23008FD930 /* EasyModernCollectionViewExampleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5C9925567C23008FD930 /* EasyModernCollectionViewExampleeTests.swift */; };
 		1E8A5CA525567C23008FD930 /* EasyModernCollectionViewExampleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CA425567C23008FD930 /* EasyModernCollectionViewExampleeUITests.swift */; };
+		1E8A5CC725567CD3008FD930 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CC625567CD3008FD930 /* FirstCollectionViewCell.swift */; };
+		1E8A5CCF25567CE0008FD930 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CCE25567CE0008FD930 /* SecondCollectionViewCell.swift */; };
+		1E8A5CD425567CF4008FD930 /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CD325567CF4008FD930 /* ThirdCollectionViewCell.swift */; };
+		1E8A5CD925567D0E008FD930 /* FourthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CD825567D0E008FD930 /* FourthCollectionViewCell.swift */; };
+		1E8A5CE125569110008FD930 /* Normal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A5CE025569110008FD930 /* Normal.storyboard */; };
+		1E8A5CE62556911C008FD930 /* Modern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A5CE52556911C008FD930 /* Modern.storyboard */; };
+		1E8A5CEB25569170008FD930 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CEA25569170008FD930 /* NormalViewController.swift */; };
+		1E8A5CF025569436008FD930 /* ModernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A5CEF25569436008FD930 /* ModernViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		1E8A5CA025567C23008FD930 /* EasyModernCollectionViewExampleeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyModernCollectionViewExampleeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8A5CA425567C23008FD930 /* EasyModernCollectionViewExampleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyModernCollectionViewExampleeUITests.swift; sourceTree = "<group>"; };
 		1E8A5CA625567C23008FD930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8A5CC625567CD3008FD930 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E8A5CCE25567CE0008FD930 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E8A5CD325567CF4008FD930 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E8A5CD825567D0E008FD930 /* FourthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E8A5CE025569110008FD930 /* Normal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Normal.storyboard; sourceTree = "<group>"; };
+		1E8A5CE52556911C008FD930 /* Modern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Modern.storyboard; sourceTree = "<group>"; };
+		1E8A5CEA25569170008FD930 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		1E8A5CEF25569436008FD930 /* ModernViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,8 @@
 		1E8A5C8125567C21008FD930 /* EasyModernCollectionViewExamplee */ = {
 			isa = PBXGroup;
 			children = (
+				1E8A5CDD255690EA008FD930 /* Screens */,
+				1E8A5CC525567CC5008FD930 /* Cells */,
 				1E8A5C8225567C21008FD930 /* AppDelegate.swift */,
 				1E8A5C8425567C21008FD930 /* SceneDelegate.swift */,
 				1E8A5C8625567C21008FD930 /* ViewController.swift */,
@@ -126,6 +144,44 @@
 				1E8A5CA625567C23008FD930 /* Info.plist */,
 			);
 			path = EasyModernCollectionViewExampleeUITests;
+			sourceTree = "<group>";
+		};
+		1E8A5CC525567CC5008FD930 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A5CC625567CD3008FD930 /* FirstCollectionViewCell.swift */,
+				1E8A5CCE25567CE0008FD930 /* SecondCollectionViewCell.swift */,
+				1E8A5CD325567CF4008FD930 /* ThirdCollectionViewCell.swift */,
+				1E8A5CD825567D0E008FD930 /* FourthCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1E8A5CDD255690EA008FD930 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A5CDE255690FD008FD930 /* Normal */,
+				1E8A5CDF25569101008FD930 /* Modern */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1E8A5CDE255690FD008FD930 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A5CE025569110008FD930 /* Normal.storyboard */,
+				1E8A5CEA25569170008FD930 /* NormalViewController.swift */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		1E8A5CDF25569101008FD930 /* Modern */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A5CE52556911C008FD930 /* Modern.storyboard */,
+				1E8A5CEF25569436008FD930 /* ModernViewController.swift */,
+			);
+			path = Modern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E8A5C8F25567C23008FD930 /* LaunchScreen.storyboard in Resources */,
+				1E8A5CE125569110008FD930 /* Normal.storyboard in Resources */,
 				1E8A5C8C25567C23008FD930 /* Assets.xcassets in Resources */,
+				1E8A5CE62556911C008FD930 /* Modern.storyboard in Resources */,
 				1E8A5C8A25567C21008FD930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A5CF025569436008FD930 /* ModernViewController.swift in Sources */,
+				1E8A5CD425567CF4008FD930 /* ThirdCollectionViewCell.swift in Sources */,
 				1E8A5C8725567C21008FD930 /* ViewController.swift in Sources */,
+				1E8A5CD925567D0E008FD930 /* FourthCollectionViewCell.swift in Sources */,
 				1E8A5C8325567C21008FD930 /* AppDelegate.swift in Sources */,
+				1E8A5CCF25567CE0008FD930 /* SecondCollectionViewCell.swift in Sources */,
+				1E8A5CEB25569170008FD930 /* NormalViewController.swift in Sources */,
 				1E8A5C8525567C21008FD930 /* SceneDelegate.swift in Sources */,
+				1E8A5CC725567CD3008FD930 /* FirstCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = EasyModernCollectionViewExamplee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7MW83A3B2;
 				INFOPLIST_FILE = EasyModernCollectionViewExamplee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
